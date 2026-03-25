@@ -3,7 +3,7 @@ import { LuArrowBigRight } from "react-icons/lu";
 
 export default function Card() {
   return (
-    <div className="flex flex-col w-full gap-2">
+    <div className=" w-full flex flex-col items-center gap-4 px-5 mb-5">
       <div className="bg-[#F46C38] rounded-2xl px-5 pt-8 pb-5 w-full max-w-300 flex flex-col gap-7 justify-between h-55 mt-7">
         <LuBox size={40} color="#fff" />
         <p className="text-white text-2xl weight-bold font-poppins">

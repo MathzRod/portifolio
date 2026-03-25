@@ -1,6 +1,4 @@
 // components/layout/LogoCarousel.tsx
-
-import { BiColor } from "react-icons/bi";
 import { SiReact, SiTypescript, SiNodedotjs, SiPython, SiDocker, SiPostgresql, SiGraphql, SiRedis, SiJavascript,SiAngular,SiDjango,SiCss, SiGit, SiJest, SiNextdotjs, SiFigma } from "react-icons/si";
 
 const logos = [
@@ -24,17 +22,17 @@ const logos = [
 
 export default function LogoCarousel() {
   return (
-    <div className="overflow-hidden py-8 `[mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]`">
+    <div className="overflow-hidden py-8 `[mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]` w-screen">
       <div className="flex animate-scroll hover:[animation-duration:60s]">
         {/* Primeiro grupo */}
-        <ul className="flex shrink-0 gap-2 min-w-full justify-around">
+        <ul className="flex shrink-0 gap-15 min-w-full justify-around">
           {logos.map((logo, i) => (
             <LogoItem key={i} logo={logo} />
           ))}
         </ul>
 
         {/* Segundo grupo — clone exato para o loop */}
-        <ul className="flex shrink-0 gap-2 min-w-full justify-around" aria-hidden>
+        <ul className="flex shrink-0 gap-15 min-w-full justify-around" aria-hidden>
           {logos.map((logo, i) => (
             <LogoItem key={i} logo={logo} />
           ))}
