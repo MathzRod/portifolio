@@ -15,6 +15,7 @@ export default function Main() {
       <Projects />
       <Experience />
       <Form/>
+      <Footer/>
     </main>
   )
 }

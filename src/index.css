@@ -5,5 +5,8 @@
   --color-text-span: #353334;
   --color-text-p: #998f8f;
   --color-highlight: #7B0828;
-  --background: #151312
+  --color-placeholder: #b8b2b2;
+  --background: #151312;
+  --background-area: #353334;
+  
 }
