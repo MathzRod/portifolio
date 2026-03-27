@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 
 export default function Icons() {
     return(
-      <nav className="bg-white rounded-2xl h-12 flex items-center justify-center mb-8 mt-5 fixed left-1/2 -translate-x-1/2">
+      <nav className="bg-white rounded-2xl h-12 flex items-center justify-center mb-8 mt-5 fixed left-1/2 -translate-x-1/2 z-50">
         <ul className="flex gap-8.5 justify-center items-center px-5  ">
             <ItemList >
               <a href="#about" className="text-[24px]">

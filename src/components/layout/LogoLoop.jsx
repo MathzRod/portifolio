@@ -22,7 +22,7 @@ const logos = [
 
 export default function LogoCarousel() {
   return (
-    <div className="overflow-hidden py-8 `[mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]` ">
+    <div className="overflow-hidden py-8 `[mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]` z-10 ">
       <div className="flex animate-scroll hover:[animation-duration:60s] gap-15">
         {/* Primeiro grupo */}
         <ul className="flex shrink-0 gap-15 min-w-full justify-around ovwe">
