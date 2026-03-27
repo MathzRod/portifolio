@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 export default function Main() {
   return (
-    <main className="w-full flex flex-col gap-10">
+    <main className="w-full flex flex-col gap-10 ">
       <HeroSection />
       <LogoLoop />
       <Card />
