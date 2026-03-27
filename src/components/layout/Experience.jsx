@@ -11,7 +11,7 @@ const experiences = [
       "Designed and executed test scenarios to validate business rules, identifying bugs and ensuring delivery stability.",
       "Applied web development best practices, focusing on component-based architecture and data validation to improve system quality and maintainability.",
     ],
-    period: "Jan 2020 - Present",
+    period: "Sept 2025 - Feb 2026",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const experiences = [
       "Developed quality-focused initiatives and process control strategies, driving a 30% improvement in operational efficiency within the Information Security team.",
       "Collaborated with cross-functional teams to define acceptance criteria, identify non-conformities, and improve the reliability of secure delivery processes.",
     ],
-    period: "Jan 2020 - Present",
+    period: "Sept 2024 - Aug 2025",
   },
 ];
 
