@@ -1,4 +1,4 @@
-import { BiHomeAlt,BiUser  } from "react-icons/bi";
+import { BiHomeAlt,BiUser, BiFolder, BiBriefcaseAlt, BiPencil  } from "react-icons/bi";
 import ItemList from "./ItemList";
 
 export default function Icons() {
@@ -13,6 +13,21 @@ export default function Icons() {
             <ItemList >
               <button className="text-[24px]">
                 <BiUser/>
+              </button>
+            </ItemList>
+            <ItemList>
+              <button className="text-[24px]">
+                <BiFolder />
+              </button>
+            </ItemList>
+            <ItemList>
+              <button className="text-[24px]">
+                <BiBriefcaseAlt />
+              </button>
+            </ItemList>
+            <ItemList>
+              <button className="text-[24px]">
+                <BiPencil />
               </button>
             </ItemList>
         </ul>

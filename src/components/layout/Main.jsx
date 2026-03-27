@@ -4,7 +4,7 @@ import Card from "./card";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Form from "./Form";
-
+import Footer from "./Footer";
 
 export default function Main() {
   return (
