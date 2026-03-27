@@ -3,7 +3,7 @@ import CardItem from "../ui/CardItem";
 
 export default function Card() {
   return (
-    <div className="w-full flex flex-col items-center gap-4 px-5 mb-5">
+    <div className="w-full flex flex-col items-center gap-4 px-5 mb-5 md:flex-row">
 
       <CardItem
         title="Full-Stack Developer"

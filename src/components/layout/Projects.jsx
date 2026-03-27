@@ -19,9 +19,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="w-full mt-7 flex flex-col gap-4 px-5">
+    <div id="projects" className="w-full mt-7 flex flex-col gap-4 px-5 ">
 
-      <h2 className="text-(--color-text) text-5xl font-bold mb-4 w-[180px]">
+      <h2 className="text-(--color-text) text-5xl font-bold mb-4 w-45 md:text-[110px]">
         Recent <span className="text-(--color-text-span)">Projects</span>
       </h2>
 

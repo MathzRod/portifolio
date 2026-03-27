@@ -5,8 +5,8 @@ export default function ExperienceItem({
   period,
 }) {
   return (
-    <div className="flex flex-col items-start px-2 py-4 w-full gap-1">
-      <h3 className="text-(--color-text) text-[18px] font-bold">
+    <div className="flex flex-col items-start px-4 py-4 w-full gap-1 md:hover:bg-[#1C1A19] rounded-2xl duration-700 transition ease-in-out">
+      <h3 className="text-(--color-text) text-[18px] font-bold md:text-[26px]">
         {company}
       </h3>
 

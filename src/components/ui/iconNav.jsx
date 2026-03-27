@@ -5,30 +5,25 @@ export default function Icons() {
     return(
       <nav className="bg-white rounded-2xl h-12 flex items-center justify-center mb-8 mt-5">
         <ul className="flex gap-8.5 justify-center items-center px-5  ">
-            <ItemList>
-              <button className="text-[24px]">
-                <BiHomeAlt/>
-              </button>
-            </ItemList>
             <ItemList >
-              <button className="text-[24px]">
+              <a href="#about" className="text-[24px]">
                 <BiUser/>
-              </button>
+              </a >
             </ItemList>
             <ItemList>
-              <button className="text-[24px]">
+              <a href="#projects" className="text-[24px]">
                 <BiFolder />
-              </button>
+              </a >
             </ItemList>
             <ItemList>
-              <button className="text-[24px]">
+              <a href="#experience" className="text-[24px]">
                 <BiBriefcaseAlt />
-              </button>
+              </a >
             </ItemList>
             <ItemList>
-              <button className="text-[24px]">
+              <a href="#contact" className="text-[24px]">
                 <BiPencil />
-              </button>
+              </a >
             </ItemList>
         </ul>
       </nav>

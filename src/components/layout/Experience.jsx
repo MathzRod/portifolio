@@ -19,8 +19,8 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div className="flex flex-col mt-6 gap-5 items-center px-5">
-      <h2 className="text-start text-amber-50 text-5xl font-bold">
+    <div id="experience" className="flex flex-col mt-6 gap-5 items-center px-5">
+      <h2 className="text-start text-amber-50 text-5xl font-bold md:text-[110px]">
         1 Year of <span className="text-(--color-text-span)">Experience</span>
       </h2>
 

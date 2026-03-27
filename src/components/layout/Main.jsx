@@ -8,14 +8,14 @@ import Footer from "./Footer";
 
 export default function Main() {
   return (
-    <main className="w-screen max-w-300 flex flex-col gap-6">
-      <HeroSection/>
+    <main className="w-full flex flex-col gap-10">
+      <HeroSection />
       <LogoLoop />
       <Card />
       <Projects />
       <Experience />
-      <Form/>
-      <Footer/>
+      <Form />
+      <Footer />
     </main>
-  )
+  );
 }
