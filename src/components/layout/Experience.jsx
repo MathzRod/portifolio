@@ -5,14 +5,23 @@ const experiences = [
     id: 1,
     company: "Equifax | Boa Vista",
     role: "Estágio",
-    description: "ASDBASJDBAS",
+    description: [
+      "Supervised and validated RPA processes, analyzing failures in automated workflows and improving operational efficiency by 30%.",
+      "Developed automation scripts using Python, ensuring process reliability and quality before and after deployments.",
+      "Designed and executed test scenarios to validate business rules, identifying bugs and ensuring delivery stability.",
+      "Applied web development best practices, focusing on component-based architecture and data validation to improve system quality and maintainability.",
+    ],
     period: "Jan 2020 - Present",
   },
   {
     id: 2,
     company: "Bradesco Seguros",
     role: "Estágio",
-    description: "ASDBASJDBAS",
+    description: [
+      "Validated and optimized critical security processes, ensuring compliance with business requirements and stakeholder expectations.",
+      "Developed quality-focused initiatives and process control strategies, driving a 30% improvement in operational efficiency within the Information Security team.",
+      "Collaborated with cross-functional teams to define acceptance criteria, identify non-conformities, and improve the reliability of secure delivery processes.",
+    ],
     period: "Jan 2020 - Present",
   },
 ];

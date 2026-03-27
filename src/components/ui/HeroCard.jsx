@@ -14,16 +14,21 @@ export default function HeroCard() {
       </p>
 
       <p className="text-center mt-3">
-        A Software Engineer who has developed countless innovative solutions.
+        A software engineering and computer science student who loves developing innovative solutions.
       </p>
       </div>
       
       <ul className="flex gap-5 mt-5 justify-center">
         <li className="text-3xl">
-          <CiLinkedin color="var(--color-highlight)" strokeWidth={0.4} />
+          <a href="https://www.linkedin.com/in/matheusrodrcarm/">
+            <CiLinkedin color="var(--color-highlight)" strokeWidth={0.4} />
+          </a>
         </li>
         <li className="text-3xl">
-          <CiInstagram color="var(--color-highlight)" strokeWidth={0.4} />
+          <a href="https://www.instagram.com/itsthe_math/">
+            <CiInstagram color="var(--color-highlight)" strokeWidth={0.4} />
+          </a>
+          
         </li>
       </ul>
     </div>
