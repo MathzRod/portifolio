@@ -14,7 +14,7 @@ export default function HeroCard() {
       </p>
 
       <p className="text-center mt-3">
-        Estudante de Engenharia da Computação e ADS. Focado em Desenvolvimento WEB, projetos práticos e evolução contínua na área de tecnologia."
+        Estudante de Engenharia da Computação e ADS. Focado em Desenvolvimento Web, projetos práticos e evolução contínua na área de tecnologia.
       </p>
       </div>
       

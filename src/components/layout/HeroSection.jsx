@@ -14,8 +14,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-start text-(--color-text-p) text-lg leading-relaxed md:text-lg">
-            Trabalhando para desenvolver experiências e ideias.
-            Especializado em transformar ideias em produtos belamente elaborados.
+            Construindo soluções digitais com foco em desenvolvimento, organização e boa experiência de uso.
           </p>
         </div>
       </div>
