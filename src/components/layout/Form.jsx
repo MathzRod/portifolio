@@ -88,21 +88,21 @@ export default function Form() {
       id="contact"
       className="w-full mt-7 flex flex-col items-start gap-4 px-5"
     >
-      <h2 className="text-start text-(--color-text) text-5xl font-bold mb-4 w-60">
-        Let's Work <span className="text-(--color-text-span)">Together</span>
+      <h2 className="text-start text-(--color-text) text-5xl font-bold mb-4 w-100">
+        Vamos Trabalhar <span className="text-(--color-text-span)">Juntos</span>
       </h2>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5 w-full">
         <div className="flex flex-col md:flex-row gap-2.5 w-full">
           <div className="flex flex-col w-full md:w-1/2 min-w-0">
             <label htmlFor="name" className="text-(--color-text-p)">
-              Name
+              Nome
             </label>
             <input
               type="text"
               id="name"
-              name="name"
-              placeholder="Enter your name..."
+              name="nome"
+              placeholder="Insira seu nome..."
               value={formData.name}
               onChange={handleChange}
               required
@@ -118,7 +118,7 @@ export default function Form() {
               type="email"
               id="email"
               name="email"
-              placeholder="Enter your email..."
+              placeholder="Insira deu e-mail..."
               value={formData.email}
               onChange={handleChange}
               required
@@ -129,13 +129,13 @@ export default function Form() {
 
         <div className="flex flex-col w-full">
           <label htmlFor="subject" className="text-(--color-text-p)">
-            Subject
+            Assunto
           </label>
           <input
             type="text"
             id="subject"
-            name="subject"
-            placeholder="Enter the subject..."
+            name="assunto"
+            placeholder="Insira o Assunto..."
             value={formData.subject}
             onChange={handleChange}
             required
@@ -145,12 +145,12 @@ export default function Form() {
 
         <div className="flex flex-col w-full">
           <label htmlFor="message" className="text-(--color-text-p)">
-            Message
+            Mensagem
           </label>
           <textarea
             id="message"
-            name="message"
-            placeholder="Write your message..."
+            name="mensagem"
+            placeholder="Escreva sua mensagem..."
             value={formData.message}
             onChange={handleChange}
             required
@@ -164,12 +164,12 @@ export default function Form() {
           disabled={status.loading}
           className="bg-(--color-highlight) text-(--color-text) font-semibold px-6 py-3 rounded-lg disabled:opacity-60"
         >
-          {status.loading ? "Sending..." : "Send Message"}
+          {status.loading ? "Enviando..." : "Enviar Mensagem"}
         </button>
 
         {status.success && (
           <p className="text-green-400 text-sm">
-            Message sent successfully.
+            Mensagem enviada com sucesso!!.
           </p>
         )}
 

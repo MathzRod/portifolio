@@ -14,8 +14,8 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-start text-(--color-text-p) text-lg leading-relaxed md:text-lg">
-            Passionate about creating intuitive and engaging user experiences.
-            Specialize in transforming ideas into beautifully crafted products.
+            Apaixonado por desenvolver experiências e ideias.
+            Especializado em transformar ideias em produtos belamente elaborados.
           </p>
         </div>
       </div>
