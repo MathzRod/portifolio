@@ -88,8 +88,8 @@ export default function Form() {
       id="contact"
       className="w-full mt-7 flex flex-col items-start gap-4 px-5"
     >
-      <h2 className="text-start text-(--color-text) text-5xl font-bold mb-4 w-100">
-        Vamos Trabalhar <span className="text-(--color-text-span)">Juntos</span>
+      <h2 className="text-start text-(--color-text) text-5xl font-bold mb-4 w-60 md:w-100">
+        Entre em <span className="text-(--color-text-span)">Contato</span>
       </h2>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5 w-full">
@@ -101,7 +101,7 @@ export default function Form() {
             <input
               type="text"
               id="name"
-              name="nome"
+              name="name"
               placeholder="Insira seu nome..."
               value={formData.name}
               onChange={handleChange}
@@ -134,7 +134,7 @@ export default function Form() {
           <input
             type="text"
             id="subject"
-            name="assunto"
+            name="subject"
             placeholder="Insira o Assunto..."
             value={formData.subject}
             onChange={handleChange}
@@ -149,7 +149,7 @@ export default function Form() {
           </label>
           <textarea
             id="message"
-            name="mensagem"
+            name="message"
             placeholder="Escreva sua mensagem..."
             value={formData.message}
             onChange={handleChange}

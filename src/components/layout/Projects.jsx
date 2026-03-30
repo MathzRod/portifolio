@@ -13,7 +13,7 @@ const projects = [
     titulo: "Weather APP",
     descricao: "Aplicação Web para consumo de API",
     imagem: "/weatherApp.png",
-    url: "https://seu-link.com",
+    url: "https://weather-app-one-nu-50.vercel.app/",
   },
 ];
 
