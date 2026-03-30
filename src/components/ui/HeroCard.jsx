@@ -14,7 +14,7 @@ export default function HeroCard() {
       </p>
 
       <p className="text-center mt-3">
-        Estudante de engenharia da Computacao e analise e desenvolvimento de sistema que adora desenvolver soluções inovadoras.
+        Estudante de Engenharia da Computação e Análise e Desenvolvimento de Sistemas, apaixonado por criar soluções inovadoras e eficientes por meio da tecnologia."
       </p>
       </div>
       
